@@ -19,7 +19,7 @@ public class LisaaHenkiloServlet extends HttpServlet {
 
 
 	/**
-	 * Lähettää  selaimelle henkilötietojen lisayslomake
+	 * Lähettää  selaimelle henkilötietojen lisäyslomake
 	 * 
 	 * @param request
 	 *            pyyntö
@@ -35,7 +35,7 @@ public class LisaaHenkiloServlet extends HttpServlet {
 	}
 
 	/**
-	 * Vastaanottaa tietoa selaimelta:
+	 * Vastaanottaa henkilolomakkeella syötetyt tiedot selaimelta:
 	 * 
 	 * Haetaan lomakkeella syötetyn henkilön tiedot  request (pyyntö)-olion parametritiedoista
 	 * ja lisätään henkilön tiedot tietokantaan.

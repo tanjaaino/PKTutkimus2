@@ -31,7 +31,7 @@ public class ListaaHenkilotServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
-		// Luodaan henkiloDAO ja käsketään hakemaan kaikki henkilot tietokannasta
+		// Luodaan henkiloDAO ja käsketään hakemaan kaikki henkilöt tietokannasta
 		HenkiloDAO henkilodao = new HenkiloDAO();
 		ArrayList<Henkilo> henkilot = henkilodao.findAll();
 
